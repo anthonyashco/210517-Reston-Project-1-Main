@@ -23,4 +23,17 @@ Expensey is a REST-ful service for managing your expense requests.
 
 ## Getting Started
 
+- Database
+  - Set up a postgres database locally or remotely.
+  - Using the DB Management software of your choice, run the script `Server/sql/tables.sql` to set up the appropriate tables.
+- Server
+  - Install the Python requirements in `Server/requirements.txt`, preferably in a virtual environment.
+    ```
+    python3 -m pip install -r requirements.txt
+    ```
+  - Run the `main.py` script.
+    ```
+    python3 main.py
+    ```
+
 ## Usage
