@@ -37,3 +37,6 @@ Expensey is a REST-ful service for managing your expense requests.
     ```
 
 ## Usage
+
+- After logging in, employees can submit claims and comment on existing claims.
+- Managers can approve or deny claims, filter claims by status, and read and comment.
